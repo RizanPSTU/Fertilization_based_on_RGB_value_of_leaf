@@ -1,0 +1,36 @@
+<? xml version = "1.0"?> 
+<Sharp update> 
+    <Update> 
+        <Version> 4.0.0.0 </ Version> 
+        <Url> https://raw.githubusercontent.com/henryxrl/SharpUpdate/master/TestApp/bin/Debug/TestApp.exe </ url> 
+        <Filepath> ./ TestApp.exe </ filepath>
+        <MD5> F16F9270971EAEAE8E313B32E8FF0814 </ md5>
+        <description> Update: 10/06/2018:
+        1. Updated a label. </ Description> 
+        <LaunchArgs> </ launchArgs> 
+    </ Update>
+    <Update> 
+        <Version> 1.0.0.0 </ Version> 
+        <Url> https://raw.githubusercontent.com/henryxrl/SharpUpdate/master/TestApp/bin/Debug/SharpUpdate.dll </ url> 
+        <Filepath> ./ SharpUpdate.dll </ filepath>
+        <MD5> 88237737FECE6C41EF6CD10AE4DC54C0 </ md5>
+        <description> Update: 10/06/2018:
+        1. Support for multiple files updating. </ Description> 
+        <LaunchArgs> </ launchArgs> 
+    </ Update>
+    <Add> 
+        <Version> 1.0.0.0 </ Version> 
+        <Url> https://raw.githubusercontent.com/henryxrl/SharpUpdate/master/TestApp/bin/Debug/SharpUpdate.dll </ url> 
+        <Filepath> ./ test_add / SharpUpdate_test_add.dll </ filepath>
+        <MD5> 88237737FECE6C41EF6CD10AE4DC54C0 </ md5>
+        <description> Add: 10/06/2018:
+        1. Test add. </ Description> 
+        <LaunchArgs> </ launchArgs> 
+    </ Add>
+    <Remove>
+        <filePath> ./ test_remove / SharpUpdate - Copy.dll </ filePath>
+        <description> Remove: 10/06/2018:
+        1. Test remove. </ Description> 
+        <LaunchArgs> </ launchArgs> 
+    </ Remove>
+</ Sharp update>
